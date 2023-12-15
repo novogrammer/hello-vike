@@ -1,4 +1,5 @@
 import { Counter } from './Counter'
+import Hello from './Hello'
 
 export { Page }
 
@@ -13,6 +14,7 @@ function Page() {
           Interactive. <Counter />
         </li>
       </ul>
+      <Hello/>
     </>
   )
 }
